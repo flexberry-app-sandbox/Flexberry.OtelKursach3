@@ -24,7 +24,7 @@ public class Dostup {
     private UUID primarykey;
 
     @Column(name = "Доступ")
-    private String доступ;
+    private Boolean доступ;
 
     @Column(name = "КодДоступа")
     private Integer коддоступа;
@@ -68,11 +68,11 @@ public class Dostup {
         return primarykey;
     }
 
-    public String getДоступ() {
+    public Boolean getДоступ() {
       return доступ;
     }
 
-    public void setДоступ(String доступ) {
+    public void setДоступ(Boolean доступ) {
       this.доступ = доступ;
     }
 

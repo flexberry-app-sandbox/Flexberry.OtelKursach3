@@ -66,7 +66,7 @@ namespace IIS.OtelKursach3
     public class Доступ : ICSSoft.STORMNET.DataObject
     {
         
-        private string fДоступ;
+        private bool fДоступ;
         
         private int fКодДоступа;
         
@@ -89,15 +89,14 @@ namespace IIS.OtelKursach3
         // *** Start programmer edit section *** (Доступ.Доступ CustomAttributes)
 
         // *** End programmer edit section *** (Доступ.Доступ CustomAttributes)
-        [StrLen(255)]
-        public virtual string Доступ
+        public virtual bool Доступ
         {
             get
             {
                 // *** Start programmer edit section *** (Доступ.Доступ Get start)
 
                 // *** End programmer edit section *** (Доступ.Доступ Get start)
-                string result = this.fДоступ;
+                bool result = this.fДоступ;
                 // *** Start programmer edit section *** (Доступ.Доступ Get end)
 
                 // *** End programmer edit section *** (Доступ.Доступ Get end)

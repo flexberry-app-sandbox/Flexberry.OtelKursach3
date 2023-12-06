@@ -8,8 +8,8 @@
   "attrs": [
     {
       "name": "доступ",
-      "type": "string",
-      "flexberryType": "string",
+      "type": "boolean",
+      "flexberryType": "bool",
       "notNull": false,
       "defaultValue": "",
       "stored": true,

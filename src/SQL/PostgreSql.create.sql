@@ -41,7 +41,7 @@ CREATE TABLE Должность (
 
 CREATE TABLE Доступ (
  primaryKey UUID NOT NULL,
- Доступ VARCHAR(255) NULL,
+ Доступ BOOLEAN NULL,
  КодДоступа INT NULL,
  Комната UUID NOT NULL,
  Сотрудники UUID NOT NULL,

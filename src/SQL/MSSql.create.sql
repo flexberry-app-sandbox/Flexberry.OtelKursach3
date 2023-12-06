@@ -66,7 +66,7 @@ CREATE TABLE [Доступ] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Доступ] VARCHAR(255)  NULL,
+	 [Доступ] BIT  NULL,
 
 	 [КодДоступа] INT  NULL,
 

@@ -75,7 +75,7 @@ CREATE TABLE "Доступ"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Доступ" NVARCHAR2(255) NULL,
+	"Доступ" NUMBER(1) NULL,
 
 	"КодДоступа" NUMBER(10) NULL,
 
