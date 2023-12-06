@@ -34,14 +34,14 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ОтельE', 'i-i-s-otel-kursach3-отель', {
-    адрес: attr('Адрес', { index: 0 }),
-    кодОтеля: attr('Код отеля', { index: 1 }),
-    наименование: attr('Наименование', { index: 2 })
+    кодОтеля: attr('Код отеля', { index: 0 }),
+    наименование: attr('Наименование', { index: 1 }),
+    адрес: attr('Адрес', { index: 2 })
   });
 
   modelClass.defineProjection('ОтельL', 'i-i-s-otel-kursach3-отель', {
-    адрес: attr('Адрес', { index: 0 }),
-    кодОтеля: attr('Код отеля', { index: 1 }),
-    наименование: attr('Наименование', { index: 2 })
+    кодОтеля: attr('Код отеля', { index: 0 }),
+    наименование: attr('Наименование', { index: 1 }),
+    адрес: attr('Адрес', { index: 2 })
   });
 };

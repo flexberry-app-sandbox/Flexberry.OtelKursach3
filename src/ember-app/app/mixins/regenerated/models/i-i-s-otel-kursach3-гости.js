@@ -56,10 +56,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ГостиE', 'i-i-s-otel-kursach3-гости', {
-    имя: attr('Имя', { index: 0 }),
-    кодГостя: attr('Код гостя', { index: 1 }),
-    отчество: attr('Отчество', { index: 2 }),
-    фамилия: attr('Фамилия', { index: 3 }),
+    кодГостя: attr('Код гостя', { index: 0 }),
+    имя: attr('Имя', { index: 1 }),
+    фамилия: attr('Фамилия', { index: 2 }),
+    отчество: attr('Отчество', { index: 3 }),
     комментарий: attr('Комментарий', { index: 4 })
   });
 };

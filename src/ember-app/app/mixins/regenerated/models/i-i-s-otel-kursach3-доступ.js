@@ -59,8 +59,8 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ДоступE', 'i-i-s-otel-kursach3-доступ', {
-    доступ: attr('Доступ', { index: 0 }),
-    кодДоступа: attr('Код доступа', { index: 1 }),
+    кодДоступа: attr('Код доступа', { index: 0 }),
+    доступ: attr('Доступ', { index: 1 }),
     комната: belongsTo('i-i-s-otel-kursach3-комната', 'Комната', {
       кодКомнаты: attr('Код комнаты', { index: 3, hidden: true }),
       класс: attr('Класс', { index: 4, hidden: true }),
@@ -73,10 +73,10 @@ export let defineProjections = function (modelClass) {
       отчество: attr('Отчество', { index: 10, hidden: true })
     }, { index: 7, displayMemberPath: 'фамилия' }),
     гости: hasMany('i-i-s-otel-kursach3-гости', 'Гости', {
-      имя: attr('Имя', { index: 0 }),
-      кодГостя: attr('Код гостя', { index: 1 }),
-      отчество: attr('Отчество', { index: 2 }),
-      фамилия: attr('Фамилия', { index: 3 }),
+      кодГостя: attr('Код гостя', { index: 0 }),
+      имя: attr('Имя', { index: 1 }),
+      фамилия: attr('Фамилия', { index: 2 }),
+      отчество: attr('Отчество', { index: 3 }),
       комментарий: attr('Комментарий', { index: 4 })
     }),
     регистрЗаписи: hasMany('i-i-s-otel-kursach3-регистр-записи', 'Регистр записи', {
@@ -87,8 +87,8 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ДоступL', 'i-i-s-otel-kursach3-доступ', {
-    доступ: attr('Доступ', { index: 0 }),
-    кодДоступа: attr('Код доступа', { index: 1 }),
+    кодДоступа: attr('Код доступа', { index: 0 }),
+    доступ: attr('Доступ', { index: 1 }),
     комната: belongsTo('i-i-s-otel-kursach3-комната', 'Код комнаты', {
       кодКомнаты: attr('Код комнаты', { index: 2 }),
       класс: attr('Класс', { index: 3 }),

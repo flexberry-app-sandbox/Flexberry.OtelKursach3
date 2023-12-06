@@ -68,26 +68,26 @@
       "modelName": "i-i-s-otel-kursach3-гости",
       "attrs": [
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "кодГостя",
+          "caption": "Код гостя",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "кодГостя",
-          "caption": "Код гостя",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "отчество",
-          "caption": "Отчество",
+          "name": "фамилия",
+          "caption": "Фамилия",
           "hidden": false,
           "index": 2
         },
         {
-          "name": "фамилия",
-          "caption": "Фамилия",
+          "name": "отчество",
+          "caption": "Отчество",
           "hidden": false,
           "index": 3
         },

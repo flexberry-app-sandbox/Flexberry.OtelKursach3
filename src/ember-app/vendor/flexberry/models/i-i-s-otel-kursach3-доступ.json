@@ -59,14 +59,14 @@
       "modelName": "i-i-s-otel-kursach3-доступ",
       "attrs": [
         {
-          "name": "доступ",
-          "caption": "Доступ",
+          "name": "кодДоступа",
+          "caption": "Код доступа",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "кодДоступа",
-          "caption": "Код доступа",
+          "name": "доступ",
+          "caption": "Доступ",
           "hidden": false,
           "index": 1
         }
@@ -167,14 +167,14 @@
       "modelName": "i-i-s-otel-kursach3-доступ",
       "attrs": [
         {
-          "name": "доступ",
-          "caption": "Доступ",
+          "name": "кодДоступа",
+          "caption": "Код доступа",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "кодДоступа",
-          "caption": "Код доступа",
+          "name": "доступ",
+          "caption": "Доступ",
           "hidden": false,
           "index": 1
         }

@@ -29,10 +29,10 @@ namespace IIS.OtelKursach3
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ГостиE", new string[] {
-            "Имя as \'Имя\'",
             "КодГостя as \'Код гостя\'",
-            "Отчество as \'Отчество\'",
+            "Имя as \'Имя\'",
             "Фамилия as \'Фамилия\'",
+            "Отчество as \'Отчество\'",
             "Комментарий as \'Комментарий\'"})]
     public class Гости : ICSSoft.STORMNET.DataObject
     {

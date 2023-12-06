@@ -29,13 +29,13 @@ namespace IIS.OtelKursach3
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ОтельE", new string[] {
-            "Адрес as \'Адрес\'",
             "КодОтеля as \'Код отеля\'",
-            "Наименование as \'Наименование\'"})]
+            "Наименование as \'Наименование\'",
+            "Адрес as \'Адрес\'"})]
     [View("ОтельL", new string[] {
-            "Адрес as \'Адрес\'",
             "КодОтеля as \'Код отеля\'",
-            "Наименование as \'Наименование\'"})]
+            "Наименование as \'Наименование\'",
+            "Адрес as \'Адрес\'"})]
     public class Отель : ICSSoft.STORMNET.DataObject
     {
         

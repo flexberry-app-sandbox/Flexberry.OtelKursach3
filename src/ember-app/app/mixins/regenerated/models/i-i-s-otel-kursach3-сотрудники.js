@@ -50,8 +50,8 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СотрудникиE', 'i-i-s-otel-kursach3-сотрудники', {
     кодСотрудника: attr('Код сотрудника', { index: 0 }),
-    фамилия: attr('Фамилия', { index: 1 }),
-    имя: attr('Имя', { index: 2 }),
+    имя: attr('Имя', { index: 1 }),
+    фамилия: attr('Фамилия', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),
     должность: belongsTo('i-i-s-otel-kursach3-должность', 'Должность', {
       наименование: attr('Наименование', { index: 5, hidden: true })
@@ -60,8 +60,8 @@ export let defineProjections = function (modelClass) {
 
   modelClass.defineProjection('СотрудникиL', 'i-i-s-otel-kursach3-сотрудники', {
     кодСотрудника: attr('Код сотрудника', { index: 0 }),
-    фамилия: attr('Фамилия', { index: 1 }),
-    имя: attr('Имя', { index: 2 }),
+    имя: attr('Имя', { index: 1 }),
+    фамилия: attr('Фамилия', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),
     должность: belongsTo('i-i-s-otel-kursach3-должность', 'Наименование', {
       наименование: attr('Наименование', { index: 4 })

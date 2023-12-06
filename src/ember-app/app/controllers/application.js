@@ -28,31 +28,31 @@ export default Controller.extend({
             link: 'i-i-s-otel-kursach3-отель-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-отель-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-отель-l.title'),
-            icon: 'calendar',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-otel-kursach3-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-сотрудники-l.title'),
-            icon: 'briefcase',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-otel-kursach3-должность-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-должность-l.title'),
-            icon: 'paperclip',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-otel-kursach3-доступ-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-доступ-l.title'),
-            icon: 'archive',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-otel-kursach3-комната-l',
             caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-комната-l.title'),
-            icon: 'list',
+            icon: 'briefcase',
             children: null
           }]
         }

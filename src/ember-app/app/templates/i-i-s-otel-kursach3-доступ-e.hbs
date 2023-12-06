@@ -27,22 +27,22 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.доступ
-      class=(if (v-get validationModel "доступ" "isInvalid") "error")
-      label=(t "forms.i-i-s-otel-kursach3-доступ-e.доступ-caption")
-      data-test-i-i-s-otel-kursach3-доступ-e-доступ=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "доступ" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
       value=model.кодДоступа
       class=(if (v-get validationModel "кодДоступа" "isInvalid") "error")
       label=(t "forms.i-i-s-otel-kursach3-доступ-e.кодДоступа-caption")
       data-test-i-i-s-otel-kursach3-доступ-e-кодДоступа=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "кодДоступа" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.доступ
+      class=(if (v-get validationModel "доступ" "isInvalid") "error")
+      label=(t "forms.i-i-s-otel-kursach3-доступ-e.доступ-caption")
+      data-test-i-i-s-otel-kursach3-доступ-e-доступ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "доступ" "message")}}
   </div>
   <div class="field">
     <label>{{t "forms.i-i-s-otel-kursach3-доступ-e.комната-caption"}}</label>

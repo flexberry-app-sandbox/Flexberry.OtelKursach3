@@ -65,14 +65,14 @@
           "index": 0
         },
         {
-          "name": "фамилия",
-          "caption": "Фамилия",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "фамилия",
+          "caption": "Фамилия",
           "hidden": false,
           "index": 2
         },
@@ -119,14 +119,14 @@
           "index": 0
         },
         {
-          "name": "фамилия",
-          "caption": "Фамилия",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "фамилия",
+          "caption": "Фамилия",
           "hidden": false,
           "index": 2
         },

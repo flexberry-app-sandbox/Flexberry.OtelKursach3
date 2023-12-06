@@ -29,8 +29,8 @@ namespace IIS.OtelKursach3
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ДоступE", new string[] {
-            "Доступ as \'Доступ\'",
             "КодДоступа as \'Код доступа\'",
+            "Доступ as \'Доступ\'",
             "Комната as \'Комната\'",
             "Комната.КодКомнаты as \'Код комнаты\'",
             "Комната.Класс as \'Класс\'",
@@ -54,8 +54,8 @@ namespace IIS.OtelKursach3
     [MasterViewDefineAttribute("ДоступE", "Комната", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "КодКомнаты")]
     [MasterViewDefineAttribute("ДоступE", "Сотрудники", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     [View("ДоступL", new string[] {
-            "Доступ as \'Доступ\'",
             "КодДоступа as \'Код доступа\'",
+            "Доступ as \'Доступ\'",
             "Комната.КодКомнаты as \'Код комнаты\'",
             "Комната.Класс as \'Класс\'",
             "Комната.КолвоМест as \'Колво мест\'",

@@ -30,8 +30,8 @@ namespace IIS.OtelKursach3
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СотрудникиE", new string[] {
             "КодСотрудника as \'Код сотрудника\'",
-            "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
+            "Фамилия as \'Фамилия\'",
             "Отчество as \'Отчество\'",
             "Должность as \'Должность\'",
             "Должность.Наименование as \'Наименование\'"}, Hidden=new string[] {
@@ -39,8 +39,8 @@ namespace IIS.OtelKursach3
     [MasterViewDefineAttribute("СотрудникиE", "Должность", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("СотрудникиL", new string[] {
             "КодСотрудника as \'Код сотрудника\'",
-            "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
+            "Фамилия as \'Фамилия\'",
             "Отчество as \'Отчество\'",
             "Должность.Наименование as \'Наименование\'"})]
     public class Сотрудники : ICSSoft.STORMNET.DataObject
