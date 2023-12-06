@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel-kursach3-сотрудники-e",
+  "editForm": "i-i-s-otel-kursach3-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISOtelKursach3СотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel-kursach3-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

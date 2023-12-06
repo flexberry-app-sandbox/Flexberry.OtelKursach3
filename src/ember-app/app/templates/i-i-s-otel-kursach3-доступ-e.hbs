@@ -1,0 +1,111 @@
+<h3 class="ui header">{{t "forms.i-i-s-otel-kursach3-доступ-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.доступ
+      class=(if (v-get validationModel "доступ" "isInvalid") "error")
+      label=(t "forms.i-i-s-otel-kursach3-доступ-e.доступ-caption")
+      data-test-i-i-s-otel-kursach3-доступ-e-доступ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "доступ" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодДоступа
+      class=(if (v-get validationModel "кодДоступа" "isInvalid") "error")
+      label=(t "forms.i-i-s-otel-kursach3-доступ-e.кодДоступа-caption")
+      data-test-i-i-s-otel-kursach3-доступ-e-кодДоступа=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодДоступа" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-otel-kursach3-доступ-e.комната-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.комната
+      displayAttributeName="кодКомнаты"
+      autocomplete=true
+      relationName="комната"
+      projection="КомнатаL"
+      title=(t "forms.i-i-s-otel-kursach3-доступ-e.комната-caption")
+      readonly=readonly
+      componentName="комнатаLookup"
+      class=(if (v-get validationModel "комната" "isInvalid") "error")
+      data-test-i-i-s-otel-kursach3-доступ-e-комната=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "комната" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-otel-kursach3-доступ-e.сотрудники-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.сотрудники
+      displayAttributeName="фамилия"
+      autocomplete=true
+      relationName="сотрудники"
+      projection="СотрудникиL"
+      title=(t "forms.i-i-s-otel-kursach3-доступ-e.сотрудники-caption")
+      readonly=readonly
+      componentName="сотрудникиLookup"
+      class=(if (v-get validationModel "сотрудники" "isInvalid") "error")
+      data-test-i-i-s-otel-kursach3-доступ-e-сотрудники=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сотрудники" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-otel-kursach3-доступ-e.гости-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="гостиGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.гости
+      content=model.гости
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "гости" "isInvalid") "error")
+      data-test-i-i-s-otel-kursach3-доступ-e-гости=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "гости" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-otel-kursach3-доступ-e.регистрЗаписи-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="регистрЗаписиGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.регистрЗаписи
+      content=model.регистрЗаписи
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "регистрЗаписи" "isInvalid") "error")
+      data-test-i-i-s-otel-kursach3-доступ-e-регистрЗаписи=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "регистрЗаписи" "message")}}
+  </div>
+</form>

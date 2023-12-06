@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Otel kursach3",
+  "applicationTitle": "Otel kursach3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "otel-kursach3",
+      "caption": "OtelKursach3",
+      "title": "OtelKursach3",
+      "children": [
+        {
+          "link": "i-i-s-otel-kursach3-отель-l",
+          "menuName": null,
+          "caption": "Отель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach3-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach3-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach3-доступ-l",
+          "menuName": null,
+          "caption": "Доступ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach3-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
