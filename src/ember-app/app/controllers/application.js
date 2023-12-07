@@ -22,37 +22,49 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.otel-kursach3.caption'),
-          title: i18n.t('forms.application.sitemap.otel-kursach3.title'),
+          caption: i18n.t('forms.application.sitemap.доступ.caption'),
+          title: i18n.t('forms.application.sitemap.доступ.title'),
           children: [{
-            link: 'i-i-s-otel-kursach3-отель-l',
-            caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-отель-l.caption'),
-            title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-отель-l.title'),
+            link: 'i-i-s-otel-kursach3-доступ-l',
+            caption: i18n.t('forms.application.sitemap.доступ.i-i-s-otel-kursach3-доступ-l.caption'),
+            title: i18n.t('forms.application.sitemap.доступ.i-i-s-otel-kursach3-доступ-l.title'),
             icon: 'archive',
             children: null
-          }, {
-            link: 'i-i-s-otel-kursach3-сотрудники-l',
-            caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-сотрудники-l.caption'),
-            title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-сотрудники-l.title'),
-            icon: 'address card',
-            children: null
-          }, {
-            link: 'i-i-s-otel-kursach3-должность-l',
-            caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-должность-l.caption'),
-            title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-должность-l.title'),
-            icon: 'tasks',
-            children: null
-          }, {
-            link: 'i-i-s-otel-kursach3-доступ-l',
-            caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-доступ-l.caption'),
-            title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-доступ-l.title'),
-            icon: 'suitcase',
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.отель.caption'),
+          title: i18n.t('forms.application.sitemap.отель.title'),
+          children: [{
+            link: 'i-i-s-otel-kursach3-отель-l',
+            caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-kursach3-отель-l.caption'),
+            title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-kursach3-отель-l.title'),
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-otel-kursach3-комната-l',
-            caption: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-комната-l.caption'),
-            title: i18n.t('forms.application.sitemap.otel-kursach3.i-i-s-otel-kursach3-комната-l.title'),
-            icon: 'calendar',
+            caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel-kursach3-комната-l.caption'),
+            title: i18n.t('forms.application.sitemap.отель.i-i-s-otel-kursach3-комната-l.title'),
+            icon: 'tasks',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.сотрудники.caption'),
+          title: i18n.t('forms.application.sitemap.сотрудники.title'),
+          children: [{
+            link: 'i-i-s-otel-kursach3-должность-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel-kursach3-должность-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel-kursach3-должность-l.title'),
+            icon: 'phone',
+            children: null
+          }, {
+            link: 'i-i-s-otel-kursach3-сотрудники-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel-kursach3-сотрудники-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel-kursach3-сотрудники-l.title'),
+            icon: 'address card',
             children: null
           }]
         }

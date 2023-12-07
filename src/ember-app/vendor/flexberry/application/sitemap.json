@@ -4,43 +4,59 @@
   "items": [
     {
       "link": null,
-      "menuName": "otel-kursach3",
-      "caption": "OtelKursach3",
-      "title": "OtelKursach3",
+      "menuName": "доступ",
+      "caption": "Доступ",
+      "title": "Доступ",
       "children": [
-        {
-          "link": "i-i-s-otel-kursach3-отель-l",
-          "menuName": null,
-          "caption": "Отель",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-otel-kursach3-сотрудники-l",
-          "menuName": null,
-          "caption": "Сотрудники",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-otel-kursach3-должность-l",
-          "menuName": null,
-          "caption": "Должность",
-          "title": "",
-          "children": null
-        },
         {
           "link": "i-i-s-otel-kursach3-доступ-l",
           "menuName": null,
           "caption": "Доступ",
           "title": "",
           "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "отель",
+      "caption": "Отель",
+      "title": "Отель",
+      "children": [
+        {
+          "link": "i-i-s-otel-kursach3-отель-l",
+          "menuName": null,
+          "caption": "Отель",
+          "title": "Отель",
+          "children": null
         },
         {
           "link": "i-i-s-otel-kursach3-комната-l",
           "menuName": null,
           "caption": "Комната",
-          "title": "",
+          "title": "Комната",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-otel-kursach3-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "Должность",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel-kursach3-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
           "children": null
         }
       ]

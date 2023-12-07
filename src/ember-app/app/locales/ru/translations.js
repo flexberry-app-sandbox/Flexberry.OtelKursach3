@@ -96,6 +96,38 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        доступ: {
+          caption: 'Доступ',
+          title: 'Доступ',
+          'i-i-s-otel-kursach3-доступ-l': {
+            caption: 'Доступ',
+            title: ''
+          }
+        },
+        отель: {
+          caption: 'Отель',
+          title: 'Отель',
+          'i-i-s-otel-kursach3-отель-l': {
+            caption: 'Отель',
+            title: 'Отель'
+          },
+          'i-i-s-otel-kursach3-комната-l': {
+            caption: 'Комната',
+            title: 'Комната'
+          }
+        },
+        сотрудники: {
+          caption: 'Сотрудники',
+          title: 'Сотрудники',
+          'i-i-s-otel-kursach3-должность-l': {
+            caption: 'Должность',
+            title: 'Должность'
+          },
+          'i-i-s-otel-kursach3-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          }
+        },
         'otel-kursach3': {
           caption: 'OtelKursach3',
           title: 'OtelKursach3',
