@@ -96,11 +96,11 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-        доступ: {
-          caption: 'Доступ',
-          title: 'Доступ',
+        'доступ-на-регистрацию': {
+          caption: 'Доступ на регистрацию',
+          title: 'Доступ на регистрацию',
           'i-i-s-otel-kursach3-доступ-l': {
-            caption: 'Доступ',
+            caption: 'Доступ на регистрацию',
             title: ''
           }
         },
@@ -126,6 +126,14 @@ $.extend(true, translations, {
           'i-i-s-otel-kursach3-сотрудники-l': {
             caption: 'Сотрудники',
             title: 'Сотрудники'
+          }
+        },
+        доступ: {
+          caption: 'Доступ',
+          title: 'Доступ',
+          'i-i-s-otel-kursach3-доступ-l': {
+            caption: 'Доступ',
+            title: ''
           }
         },
         'otel-kursach3': {

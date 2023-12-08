@@ -4,14 +4,14 @@
   "items": [
     {
       "link": null,
-      "menuName": "доступ",
-      "caption": "Доступ",
-      "title": "Доступ",
+      "menuName": "доступ-на-регистрацию",
+      "caption": "Доступ на регистрацию",
+      "title": "Доступ на регистрацию",
       "children": [
         {
           "link": "i-i-s-otel-kursach3-доступ-l",
           "menuName": null,
-          "caption": "Доступ",
+          "caption": "Доступ на регистрацию",
           "title": "",
           "children": null
         }
